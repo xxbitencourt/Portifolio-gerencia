@@ -10,7 +10,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #8a99b5;
+  background-color:  #8a99b5;
   border-bottom: 1px solid #ddd;
 }
 
@@ -46,7 +46,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
-  background: #fff;
+  background: #8a99b5ba;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -69,12 +69,19 @@ body {
   color: #555;
 }
 
+.card-price {
+  margin: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
 .card-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #8a99b5;
 }
 
 .card-footer img {
@@ -85,6 +92,16 @@ body {
 
 .card-footer .creator-name {
   font-weight: bold;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #8a99b5;
+}
+
+footer p {
+  margin: 0;
 }
 
 @media (max-width: 768px) {
